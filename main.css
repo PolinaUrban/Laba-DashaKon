@@ -1,0 +1,87 @@
+html {
+  overflow-x: hidden;
+    background-image: url(inst.png);
+    -webkit-font-smoothing: antialiased;
+     -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
+}
+
+h1,h2{
+    position: flex;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: "Playfair Display";
+    text-shadow:
+    1px 1px 0 hsl(20,100%,50%),
+    2px 2px 0 hsl(20,100%,50%),
+    3px 3px 0 hsl(35,100%,50%),
+    4px 4px 0 hsl(35,100%,50%),
+    5px 5px 0 hsl(45,100%,50%),
+    6px 6px 0 hsl(45,100%,55%),
+    7px 7px 0 hsl(55,100%,60%),
+    8px 8px 0 hsl(55,100%,65%);
+  color: hsl(0,100%,40%);
+  transition: all 1s;
+}
+
+h1:hover {
+  text-shadow:
+    1px -1px 0 hsl(290,100%,40%),
+    2px -2px 0 hsl(290,100%,40%),
+    3px -3px 0 hsl(280,100%,60%),
+    4px -4px 0 hsl(280,100%,60%),
+    5px -5px 0 hsl(270,100%,75%),
+    6px -6px 0 hsl(270,100%,80%),
+    7px -7px 0 hsl(260,100%,85%),
+    8px -8px 0 hsl(260,100%,90%);
+  color: hsl(300,100%,30%);
+}
+
+h2:hover {
+  text-shadow:
+    1px -1px 0 hsl(290,100%,40%),
+    2px -2px 0 hsl(290,100%,40%),
+    3px -3px 0 hsl(280,100%,60%),
+    4px -4px 0 hsl(280,100%,60%),
+    5px -5px 0 hsl(270,100%,75%),
+    6px -6px 0 hsl(270,100%,80%),
+    7px -7px 0 hsl(260,100%,85%),
+    8px -8px 0 hsl(260,100%,90%);
+  color: hsl(300,100%,30%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.imagesdasha{
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-align-items: stretch;
+    -webkit-justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.image1{
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: flex;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+.image2{
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: flex;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
